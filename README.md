@@ -29,6 +29,7 @@ Message sent successfully:
 - [Requirements](#requirements)
 - [Quick Start](#quick-start)
 - [MCP Client Configuration](#mcp-client-configuration)
+- [Agent Skill Guide](#agent-skill-guide)
 - [Multi-Account Setup](#multi-account-setup)
 - [Proxy Support](#proxy-support)
 - [File Path Security](#file-path-security)
@@ -164,6 +165,13 @@ from GitHub explicitly:
 ```bash
 uvx --from "git+https://github.com/chigwell/telegram-mcp.git@<pinned-release-tag-or-commit>" telegram-mcp-generate-session
 ```
+
+## Agent Skill Guide
+
+For OpenClaw, Hermes, and other MCP-compatible or agent-compatible runtimes, see
+[SKILL.md](SKILL.md). It documents source-checkout installation, required
+environment variables, file-root safety, multi-account behavior, and which tool
+categories are read-only, state-changing, destructive, or privacy-sensitive.
 
 ## Multi-Account Setup
 
